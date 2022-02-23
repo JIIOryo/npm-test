@@ -4,12 +4,10 @@
     // .d.tsを生成
     "declaration": true,
     // 別コンポーネントのdirからコードジャンプする時にcoreのtsファイルにジャンプできるようになる
-    "declarationMap": true,
+    "declarationMap": false,
     // コンパイル成果物を配置するディレクトリ
     "outDir": "./dist",
     "baseUrl": "./src",
-    // protobufの自動生成でjsが吐き出されるためtrueにする
-    "allowJs": true,
     "types": [
       "node",
     ],
