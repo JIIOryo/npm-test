@@ -1,17 +1,21 @@
 {
   "name": "kawaguchi-npm-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "test description",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JIIOryo/npm-test.git"
   },
-  "author": "",
+  "author": "JIIOryo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JIIOryo/npm-test/issues"
